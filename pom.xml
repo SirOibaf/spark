@@ -2127,7 +2127,7 @@
           </exclusion>
           <exclusion>
             <groupId>com.sun.jersey</groupId>
-            <artifactId>jersey-client</artifactId>
+            <artifactId>*</artifactId>
           </exclusion>
           <!-- Begin of Hive 2.3 exclusion -->
           <!-- Exclude log4j-slf4j-impl, otherwise throw NCDFE when starting spark-shell -->
@@ -2161,7 +2161,7 @@
           </exclusion>
           <exclusion>
             <groupId>com.sun.jersey</groupId>
-            <artifactId>jersey-core</artifactId>
+            <artifactId>*</artifactId>
           </exclusion>
         </exclusions>
       </dependency>
@@ -3390,4 +3390,12 @@
       </properties>
     </profile>
   </profiles>
+
+  <distributionManagement>
+    <repository>
+      <id>Hops</id>
+      <name>Hops Repo</name>
+      <url>https://archiva.hops.works/repository/Hops/</url>
+    </repository>
+  </distributionManagement>
 </project>
