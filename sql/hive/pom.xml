@@ -117,6 +117,16 @@
       <artifactId>hive-llap-client</artifactId>
       <scope>${hive.llap.scope}</scope>
     </dependency>
+    <dependency>
+      <groupId>${hive.group}</groupId>
+      <artifactId>hive-jdbc</artifactId>
+      <scope>${hive.jdbc.scope}</scope>
+    </dependency>
+    <dependency>
+      <groupId>${hive.group}</groupId>
+      <artifactId>hive-service-rpc</artifactId>
+      <scope>${hive.service.scope}</scope>
+    </dependency>
     <!-- hive-serde already depends on avro, but this brings in customized config of avro deps from parent -->
     <dependency>
       <groupId>org.apache.avro</groupId>

@@ -243,6 +243,8 @@
     <hive.llap.scope>compile</hive.llap.scope>
     <hive.serde.scope>compile</hive.serde.scope>
     <hive.shims.scope>compile</hive.shims.scope>
+    <hive.service.scope>compile</hive.service.scope>
+    <hive.jdbc.scope>compile</hive.jdbc.scope>
     <orc.deps.scope>compile</orc.deps.scope>
     <parquet.deps.scope>compile</parquet.deps.scope>
     <parquet.test.deps.scope>test</parquet.test.deps.scope>
