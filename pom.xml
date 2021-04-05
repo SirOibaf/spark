@@ -2066,6 +2066,19 @@
           </exclusion>
         </exclusions>
       </dependency>
+
+      <dependency>
+        <groupId>${hive.group}</groupId>
+        <artifactId>hive-service</artifactId>
+        <version>${hive.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>*</groupId>
+            <artifactId>*</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+
       <dependency>
         <groupId>net.sf.jpam</groupId>
         <artifactId>jpam</artifactId>

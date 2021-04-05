@@ -127,6 +127,11 @@
       <artifactId>hive-service-rpc</artifactId>
       <scope>${hive.service.scope}</scope>
     </dependency>
+    <dependency>
+      <groupId>${hive.group}</groupId>
+      <artifactId>hive-service</artifactId>
+      <scope>${hive.service.scope}</scope>
+    </dependency>
     <!-- hive-serde already depends on avro, but this brings in customized config of avro deps from parent -->
     <dependency>
       <groupId>org.apache.avro</groupId>
