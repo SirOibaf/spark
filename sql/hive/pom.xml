@@ -119,7 +119,7 @@
     </dependency>
     <dependency>
       <groupId>${hive.group}</groupId>
-      <artifactId>hive-jdbc</artifactId>
+      <artifactId>hops-jdbc</artifactId>
       <scope>${hive.jdbc.scope}</scope>
     </dependency>
     <dependency>
