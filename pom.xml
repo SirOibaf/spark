@@ -1860,7 +1860,7 @@
       </dependency>
       <dependency>
         <groupId>${hive.group}</groupId>
-        <artifactId>hive-jdbc</artifactId>
+        <artifactId>hops-jdbc</artifactId>
         <version>${hive.version}</version>
         <exclusions>
           <exclusion>
